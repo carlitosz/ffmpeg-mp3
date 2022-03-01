@@ -28,9 +28,6 @@ else
     # Convert MP3
     convert_mp3
 
-    # Clean up
-    clean
-
     # Display final file size
     mb=$(du -h $OUTPUT | awk '{print $1}')
     echo "\nFile size: ${mb}"
